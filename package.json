@@ -1,0 +1,21 @@
+{
+  "name": "gsap-trial-bonus-plugins",
+  "version": "1.0.0",
+  "description": "Try all GSAP bonus plugins for free on CodeSandbox.\n\nSimply add gsap-trial to your dependencies or fork this template.",
+  "main": "index.html",
+  "scripts": {
+    "preinstall": "yarn config list",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "gsap": "npm:@gsap/business",
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  }
+}
