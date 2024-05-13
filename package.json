@@ -1,7 +1,7 @@
 {
-  "name": "gsap-trial-bonus-plugins",
+  "name": "gsap-netlify-bonus-plugins",
   "version": "1.0.0",
-  "description": "Try all GSAP bonus plugins for free on CodeSandbox.\n\nSimply add gsap-trial to your dependencies or fork this template.",
+  "description": "test",
   "main": "index.html",
   "scripts": {
     "preinstall": "yarn config list",
@@ -9,8 +9,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@gsap/shockingly": "3.9.0",
-    "gsap": "npm:@gsap/shockingly",
+    "gsap": "npm:@gsap/business@^3.12.5",
     "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
